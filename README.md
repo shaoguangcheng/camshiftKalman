@@ -7,4 +7,4 @@ I implement an object tracking algorithm using camshift and Kalman Filter. Three
 
 If you any questions about this project, please contact me directly.
 E-mail : chengshaoguang1291@gmail.com
-From Northwestern Pplytechnical University.
+From Northwestern Polytechnical University.
