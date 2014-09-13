@@ -30,15 +30,21 @@ Detail usage :
                            3 -- LBP_SATURATION_HUE
   -v, --videoName          the video to track
 ```
-Screentshot
+Screenshot
 =============
 only show result on one video
 ![t1](screenshot/tracking_1.PNG)
 ![t2](screenshot/tracking_2.PNG)
 ![t3](screenshot/tracking_3.PNG)
 
+If we choose another object
+![t4](screenshot/tracking_4.PNG)
+when the obejct can not be captured
+![t5](screenshot/tracking_5.PNG)
+when the object appears again
+![t5](screenshot/tracking_6.PNG)
 Contact
 =============
-If you any questions about this project, please contact me directly.
-E-mail : chengshaoguang1291@gmail.com
+If you any questions about this project, please contact me directly.  
+E-mail : chengshaoguang1291@gmail.com  
 From Northwestern Polytechnical University.
