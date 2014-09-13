@@ -1,0 +1,45 @@
+##########################################################################
+OUTPUT_DIRECTORY       = ./doc
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+##############################input configration#################################
+INPUT                  = .
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          =
+RECURSIVE              = NO
+EXCLUDE                =
+
+##########################output configuration####################################
+#for HTML 
+GENERATE_HTML = YES
+HTML_FILE_EXTENSION = .htm
+
+#for CHM files
+GENERATE_HTMLHELP = YES
+
+#for Latex output
+GENERATE_LATEX = YES
+LATEX_OUTPUT = latex
+
+#for RTF
+GENERATE_RTF = YES
+RTF_OUTPUT = rtf 
+RTF_HYPERLINKS = YES
+
+#for MAN pages
+GENERATE_MAN = YES
+MAN_OUTPUT = man
+
+#for XML
+GENERATE_XML = YES
+
+###############################################################
+ENABLE_PREPROCESSING = YES
+MACRO_EXPANSION = YES
+EXPAND_ONLY_PREDEF = YES
+EXPAND_AS_DEFINED = CONTAINER
+
+CLASS_DIAGRAMS = YES
+HAVE_DOT = NO

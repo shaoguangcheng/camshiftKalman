@@ -6,21 +6,14 @@
 
 using namespace cv;
 
-/*F///////////////////////////////////////////////////////////////////////////////////////
-//    Name:    cvMeanShift
-//    Purpose: MeanShift algorithm
-//    Context:
-//    Parameters:
-//      imgProb     - 2D object probability distribution
-//      windowIn    - CvRect of CAMSHIFT Window intial size
-//      numIters    - If CAMSHIFT iterates this many times, stop
-//      windowOut   - Location, height and width of converged CAMSHIFT window
-//      len         - If != NULL, return equivalent len
-//      width       - If != NULL, return equivalent width
-//    Returns:
-//      Number of iterations CAMSHIFT took to converge
-//    Notes:
-//F*/
+/**
+ * @brief cvmeanShift MeanShift algorithm
+ * @param imgProb 2D object probability distribution
+ * @param windowIn CvRect of CAMSHIFT Window intial size
+ * @param criteria how to terminate the iteration
+ * @param comp the tracking result
+ * @return Number of iterations CAMSHIFT took to converge
+ */
 int cvmeanShift( const void* imgProb, CvRect windowIn,
              CvTermCriteria criteria, CvConnectedComp* comp )
 {
@@ -122,6 +115,13 @@ int cvmeanShift( const void* imgProb, CvRect windowIn,
 //      Number of iterations CAMSHIFT took to converge
 //    Notes:
 //F*/
+/**
+ * @brief cvcamShift CAMSHIFT algorithm
+ * @param imgProb 2D object probability distribution
+ * @param windowIn CvRect of CAMSHIFT Window intial size
+ * @param criteria criteria of stop finding window
+ * @return   Number of iterations CAMSHIFT took to converge
+ */
 int cvcamShift( const void* imgProb, CvRect windowIn,
             CvTermCriteria criteria,
             CvConnectedComp* _comp,

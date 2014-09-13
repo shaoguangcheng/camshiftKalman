@@ -1,8 +1,10 @@
 #ifndef TEST_H
 #define TEST_H
 
-/*
- * test LBP
+/**
+ * @brief testGetLBP test the LBP function
+ * @param argc
+ * @param argv
  */
 void testGetLBP(int argc, char* argv[]);
 

@@ -3,6 +3,7 @@
 
 //#include "marco.h"
 
+
 #define DEBUG
 
 #include <stdlib.h>
@@ -162,6 +163,12 @@ void camShiftKalman::extractTargetModel()
     }
 }
 
+/**
+ * @brief norm_L2 calculate the L2 norm
+ * @param x
+ * @param y
+ * @return
+ */
 inline double norm_L2(const cv::Point &x, const cv::Point &y)
 {
     return std::sqrt((double)((x.x-y.x)*(x.x-y.x)+(x.y-y.y)*(x.y-y.y)));

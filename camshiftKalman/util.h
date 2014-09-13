@@ -5,9 +5,13 @@
 #include <string>
 #include <fstream>
 
-/*
- * read config text
+/**
+ * @brief readConfig read config text
+ * @param configFileName config file name
+ * @param videoPath the returned video name
+ * @param box returned value of initialize tracking window
  */
+
 void readConfig(char* configFileName, char* videoPath, cv::Rect &box);
 
 /**

@@ -15,10 +15,9 @@ using namespace cv;
 void getLBP(Mat &img);
 
 /**
- * rotation shift
- * val
- * if n > 0 then left shift
- * if n < 0 then right shift
+ * @brief rotation shift
+ * @param val
+ * @param n the number of bit to move.if n > 0 then left shift; if n < 0 then right shift
  */
 template <class T> T move(T val, int n)
 {
@@ -34,7 +33,8 @@ template <class T> T move(T val, int n)
 }
 
 /**
- *  print binary format of val
+ * @brief print binary format of val
+ * @param val print the val with the binary format
  */
 template<class T> void printBinary(T val)
 {
@@ -57,14 +57,14 @@ template<class T> void printBinary(T val)
 
 /**
  * @brief minRotation calculate the minimal value of the rotation shift
- * @param val
+ * @param val the value to rotation
  * @return
  */
 uchar minRotation(uchar &val);
 
 /**
  * @brief getLBPRI compute the rotation invariant LBP
- * @param img
+ * @param img the image to calculate
  */
 void getLBPRI(Mat &img);
 
