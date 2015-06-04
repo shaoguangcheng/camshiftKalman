@@ -43,8 +43,11 @@ when the obejct can not be captured
 ![t5](screenshot/tracking_5.PNG)
 when the object appears again
 ![t5](screenshot/tracking_6.PNG)
+
+<!--
 Contact
 =============
 If you any questions about this project, please contact me directly.  
 E-mail : chengshaoguang1291@gmail.com  
 From Northwestern Polytechnical University.
+-->
